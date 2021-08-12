@@ -34,38 +34,37 @@ leoDados()
 
 // //b.
 function leoDados1(nome,idade,cidade,profissao) {
-    nome = "Leonardo Camillo"
-    idade = 24
-    cidade = "Praia Grande"
-    profissao = "estudante"
-    console.log(`Eu sou ${nome}, tenho ${idade} anos, moro em ${cidade} e sou ${profissao}.`)
+    return `Eu sou ${nome}, tenho ${idade} anos, moro em ${cidade} e sou ${profissao}.`
 }
 
-leoDados1()
+console.log(leoDados1("Leonardo", 24, "Praia Grande", "Estudante"))
 
 //2.
 //a.
-function somaNumeros (n1,n2) {
-    resultado = n1 + n2
+const num1 = Number(prompt("Digite um número: "))
+const num2 = Number(prompt("Digite um número" ))
+
+function somaNumeros (num1,num2) {
+    resultado = num1 + num2
     return resultado
 }
-const soma1 = somaNumeros(1,2)
+const soma1 = somaNumeros(num1,num2)
 console.log(soma1)
 
 // //b.
-function checarNumero(n1,n2) {
-    resultado1 = n1 > n2
+function checarNumero(num1,num2) {
+    resultado1 = num1 > num2
     return resultado1
 }
-const numeros = checarNumero(10,5)
+const numeros = checarNumero(num1,num2)
 console.log(numeros)
 
 //c.
-function numeroPar(n1) {
-    resultado3 = n1 % 2 === 0
+function numeroPar(num1) {
+    resultado3 = num1 % 2 === 0
     return resultado3
 }
-const divisao = numeroPar(7)
+const divisao = numeroPar(num1)
 console.log(divisao)
 
 //d.
