@@ -15,7 +15,7 @@
 // 	}
 // }
 //a) 19, 21, 23, 25, 27,30
-//b) Sim, ast
+//b) Sim, através do for of.
 
 //3.
 // const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
@@ -65,8 +65,8 @@ for(i = 0; i < arrayOriginal.length; i++){
 console.log(novaArray)
 
 //d)    
-for(elemento of arrayOriginal){
-    console.log(`O elemento do índex 0 é ${elemento}`)
+for(numero of arrayOriginal){
+    console.log(`O elemento do índex 0 é ${numero}`)
 }
 
 //e)
