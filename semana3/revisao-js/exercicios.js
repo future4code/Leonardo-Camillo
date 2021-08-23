@@ -87,17 +87,41 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
-}
+    let menor = Infinity
+    let maior = - Infinity
+    let segundoMenor = Infinity
+    let segundoMaior = - Infinity
+    let novoArray = []
+    for (num of array) {
+      if (num < menor) {
+        menor = num
+      }
+      if (num > maior) {
+        maior = num
+      }
+    }
+    for (num of array) {
+      if (num < segundoMenor && num !== menor) {
+        segundoMenor = num
+      }
+      if (num > segundoMaior && num !== maior) {
+        segundoMaior = num
+      }
+    }
+    novoArray.push(segundoMaior)
+    novoArray.push(segundoMenor)
+    return novoArray
+  }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+    return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[03]}.`    
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+    return {...pessoa, nome:"ANÔNIMO"}
+
 }
 
 // EXERCÍCIO 13A
