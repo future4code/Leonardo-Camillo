@@ -65,21 +65,25 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
     
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-    function retornaNPrimeirosPares(n) {
-        const novoArray = []
-        for (let i = 0; novoArray.length < n; i++) {
-          if (i % 2 == 0) {
-            novoArray.push(i)
-          }
-        }
-        return novoArray
+    array = []
+    for (let i = 0; novoArray.length < n; i++) {
+      if (i % 2 == 0) {
+        array.push(i)
       }
-}
+    }
+    return array
+  }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
-}
+    if (ladoA === ladoB && ladoA === ladoB && ladoB === ladoC) {
+      return 'Equilátero'
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoC === ladoB) {
+      return 'Isósceles'
+    } else if (ladoA !== ladoB && ladoA !== ladoC && ladoC !== ladoB) {
+      return 'Escaleno'
+    }
+  }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
