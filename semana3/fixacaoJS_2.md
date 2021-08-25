@@ -1,7 +1,7 @@
 ```
 function calculaPrecoTotal(quantidade) {
 let preco 
-if(quantidade < 6){
+if(quantidade < 13){
   preco = 1.3 
 } else {
   preco = 1 
