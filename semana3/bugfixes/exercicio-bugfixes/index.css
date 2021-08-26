@@ -134,3 +134,7 @@ td button {
     background-color: #635a3d
 }
 
+td>img{
+    width: 70px;
+    background-color: white;
+}
