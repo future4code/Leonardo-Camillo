@@ -54,6 +54,7 @@ div img {
     height: 500px;
     text-align: center;
     padding-top: 200px;
+
 }
 
 .icone {
@@ -128,4 +129,8 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+div>p{
+    white-space: nowrap;
 }
