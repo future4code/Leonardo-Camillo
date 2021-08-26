@@ -1,0 +1,52 @@
+h1{
+    color:white;
+    background-color: black;
+    display: block;
+    padding-left: 650px;
+    font-size: 60px;
+}
+
+body{
+    background-color: rgba(199, 199, 199, 0.986);
+}
+
+.cabecalho{
+    font-size: 30px;
+    padding-left: 550px;
+}
+
+.foto{
+    padding-left: 600px; 
+}
+
+.texto-inicial{
+    padding-left: 6 50px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+table{
+    background-color: white;
+}
+
+h2{
+    background-color: white;
+    display: inline;
+    padding-bottom:21px;
+}
+
+ul {
+    background-color: white;
+    font-size: larger;
+}
+form{
+    background-color: white;
+}
+
+.rodape{
+    background-color: rgb(190, 188, 188);
+}
+
+.pagina-inicial{
+    margin-right: 50px;
+}
