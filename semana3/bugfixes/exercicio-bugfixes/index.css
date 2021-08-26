@@ -139,3 +139,7 @@ td>img{
     background-color: white;
 }
 
+td button:hover{
+    background-color: #a39244;
+}
+
