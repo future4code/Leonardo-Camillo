@@ -101,7 +101,7 @@ div:last-child {
 
 table {
     width: 60%;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 td button {
@@ -135,6 +135,7 @@ td button {
 }
 
 td>img{
-    width: 70px;
+    width: 40px;
     background-color: white;
 }
+
