@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-flex-container{
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: mediumvioletred;
+    padding: 5px;
+}
+
+header img {
+    width: 30px;
+}
+
+.titulo-confeiteria{
+    padding-right: 1550px;
+    font-size: 35px;
+}
+
+
+main{
+    display: flex;
+}
+
+nav{
+    background-color: #f2d0e0;  
+    width: 250px;
+    height: 800px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 20px;
+    margin-left: 30px
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.card-bolo img {
+    width: 220px;
+    margin-left: 100px;
+}
+
+.card-bolo {
+    display: grid;
+    align-items: center;
+    margin: 5px; 
+    box-shadow: 10px 5px silver;
+    text-align: center;
+    height: 300px;
+}
+
+footer {
+    background-color: mediumvioletred;
+    display: flex;
+    height: 65px;
+    align-items: center ;
+    padding-left: 780px;
+}
